@@ -1,0 +1,24 @@
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\obj\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\bin\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\obj\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\obj\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.pdb

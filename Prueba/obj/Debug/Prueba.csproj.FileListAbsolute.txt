@@ -1,0 +1,13 @@
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Prueba.exe.config
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Prueba.exe
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Prueba.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.csproj.SuggestedBindingRedirects.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.exe
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Prueba\obj\Debug\Prueba.pdb

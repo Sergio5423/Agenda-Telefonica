@@ -1,0 +1,103 @@
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Presentacion.exe.config
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Presentacion.exe
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Presentacion.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.exe
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Logica.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\bin\Debug\Logica.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Presentacion\obj\Debug\Presentacion.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Presentacion.exe.config
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Presentacion.exe
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Presentacion.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.exe
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Presentacion\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.FormContactoFamiliar.resources
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.FormContactoFamiliar.resources
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Presentacion\obj\Debug\Presentacion.pdb

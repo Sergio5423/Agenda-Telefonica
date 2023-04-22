@@ -1,0 +1,77 @@
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Datos.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Datos.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\obj\Debug\Logica.csproj.CopyComplete
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\obj\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-02\AgendaV02\Logica\obj\Debug\Logica.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Logica.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Logica.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Datos.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Datos.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\bin\Debug\Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\obj\Debug\Logica.dll
+C:\Users\aleja\OneDrive\Escritorio\AgendaV02\Logica\obj\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\obj\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\obj\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Datos.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Entidades.dll
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Datos.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\bin\Debug\Entidades.pdb
+D:\UNICESAR-2023\P3\GRUPO-03\AgendaV02\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\obj\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV4\Logica\obj\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\obj\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\Agenda Archivos\Logica\obj\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\obj\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\obj\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV5\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Logica.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Datos.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Entidades.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Datos.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\bin\Debug\Entidades.pdb
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\obj\Debug\Logica.dll
+C:\Users\starr\OneDrive\Documentos Onedrive\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Logica\obj\Debug\Logica.pdb
