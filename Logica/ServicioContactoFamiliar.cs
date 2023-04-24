@@ -42,8 +42,7 @@ namespace Logica
         }
 
         public string Eliminar(string dato)
-        {
-            //lista = repositorio.ConsultarTodos();                        
+        {                   
             var contacto = Buscar(dato);
             lista.Remove(contacto);            
             repositorio.Reemplazar(lista);

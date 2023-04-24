@@ -12,6 +12,7 @@ namespace Logica
         string Add(T contacto);
         string Eliminar(string dato);
         List<T> GetAll();
-        T Buscar(string busqueda);                
+        T Buscar(string busqueda);
+        void Modificar(string dato);
     }
 }
