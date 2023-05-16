@@ -35,6 +35,9 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnIniciar = new System.Windows.Forms.Button();
+            this.cbCamaras = new System.Windows.Forms.ComboBox();
+            this.pbImage = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.tbTelefono = new System.Windows.Forms.TextBox();
@@ -44,11 +47,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lstFamiliar = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage = new System.Windows.Forms.TabControl();
             this.tbGeneral = new System.Windows.Forms.TabPage();
             this.tbListado = new System.Windows.Forms.TabPage();
+            this.txtFiltro = new System.Windows.Forms.TextBox();
             this.grilla3 = new System.Windows.Forms.DataGridView();
             this.gridViewCF2 = new System.Windows.Forms.DataGridView();
             this.gridViewCF = new System.Windows.Forms.DataGridView();
@@ -56,9 +59,10 @@
             this.nombresGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtFiltro = new System.Windows.Forms.TextBox();
+            this.btnCapturar = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.tabPage.SuspendLayout();
             this.tbGeneral.SuspendLayout();
             this.tbListado.SuspendLayout();
@@ -74,15 +78,15 @@
             this.groupBox2.Controls.Add(this.btnSalir);
             this.groupBox2.Controls.Add(this.btnGuardar);
             this.groupBox2.Controls.Add(this.btnNuevo);
-            this.groupBox2.Location = new System.Drawing.Point(22, 362);
+            this.groupBox2.Location = new System.Drawing.Point(22, 417);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(572, 88);
+            this.groupBox2.Size = new System.Drawing.Size(604, 88);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(249, 37);
+            this.btnActualizar.Location = new System.Drawing.Point(266, 37);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 4;
@@ -92,7 +96,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(361, 37);
+            this.btnEliminar.Location = new System.Drawing.Point(385, 37);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 3;
@@ -102,7 +106,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(467, 37);
+            this.btnSalir.Location = new System.Drawing.Point(497, 37);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 2;
@@ -112,7 +116,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(132, 37);
+            this.btnGuardar.Location = new System.Drawing.Point(142, 37);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 1;
@@ -132,6 +136,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnCapturar);
+            this.groupBox1.Controls.Add(this.btnIniciar);
+            this.groupBox1.Controls.Add(this.cbCamaras);
+            this.groupBox1.Controls.Add(this.pbImage);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.dtpFecha);
             this.groupBox1.Controls.Add(this.tbTelefono);
@@ -141,12 +149,38 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.lstFamiliar);
             this.groupBox1.Location = new System.Drawing.Point(22, 50);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(604, 290);
+            this.groupBox1.Size = new System.Drawing.Size(604, 345);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            // 
+            // btnIniciar
+            // 
+            this.btnIniciar.Location = new System.Drawing.Point(506, 40);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(75, 23);
+            this.btnIniciar.TabIndex = 12;
+            this.btnIniciar.Text = "Iniciar";
+            this.btnIniciar.UseVisualStyleBackColor = true;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
+            // 
+            // cbCamaras
+            // 
+            this.cbCamaras.FormattingEnabled = true;
+            this.cbCamaras.Location = new System.Drawing.Point(352, 42);
+            this.cbCamaras.Name = "cbCamaras";
+            this.cbCamaras.Size = new System.Drawing.Size(148, 21);
+            this.cbCamaras.TabIndex = 11;
+            // 
+            // pbImage
+            // 
+            this.pbImage.Location = new System.Drawing.Point(352, 79);
+            this.pbImage.Name = "pbImage";
+            this.pbImage.Size = new System.Drawing.Size(229, 199);
+            this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbImage.TabIndex = 10;
+            this.pbImage.TabStop = false;
             // 
             // label5
             // 
@@ -221,15 +255,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "ID";
             // 
-            // lstFamiliar
-            // 
-            this.lstFamiliar.FormattingEnabled = true;
-            this.lstFamiliar.Location = new System.Drawing.Point(352, 42);
-            this.lstFamiliar.Name = "lstFamiliar";
-            this.lstFamiliar.Size = new System.Drawing.Size(220, 225);
-            this.lstFamiliar.TabIndex = 0;
-            this.lstFamiliar.SelectedIndexChanged += new System.EventHandler(this.lstFamiliar_SelectedIndexChanged);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -246,7 +271,7 @@
             this.tabPage.Location = new System.Drawing.Point(12, 12);
             this.tabPage.Name = "tabPage";
             this.tabPage.SelectedIndex = 0;
-            this.tabPage.Size = new System.Drawing.Size(655, 499);
+            this.tabPage.Size = new System.Drawing.Size(655, 554);
             this.tabPage.TabIndex = 12;
             // 
             // tbGeneral
@@ -257,7 +282,7 @@
             this.tbGeneral.Location = new System.Drawing.Point(4, 22);
             this.tbGeneral.Name = "tbGeneral";
             this.tbGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tbGeneral.Size = new System.Drawing.Size(647, 473);
+            this.tbGeneral.Size = new System.Drawing.Size(647, 528);
             this.tbGeneral.TabIndex = 0;
             this.tbGeneral.Text = "Contacto Familiar";
             this.tbGeneral.UseVisualStyleBackColor = true;
@@ -271,10 +296,18 @@
             this.tbListado.Location = new System.Drawing.Point(4, 22);
             this.tbListado.Name = "tbListado";
             this.tbListado.Padding = new System.Windows.Forms.Padding(3);
-            this.tbListado.Size = new System.Drawing.Size(647, 473);
+            this.tbListado.Size = new System.Drawing.Size(647, 534);
             this.tbListado.TabIndex = 1;
             this.tbListado.Text = "Vista General";
             this.tbListado.UseVisualStyleBackColor = true;
+            // 
+            // txtFiltro
+            // 
+            this.txtFiltro.Location = new System.Drawing.Point(102, 447);
+            this.txtFiltro.Name = "txtFiltro";
+            this.txtFiltro.Size = new System.Drawing.Size(100, 20);
+            this.txtFiltro.TabIndex = 6;
+            this.txtFiltro.TextChanged += new System.EventHandler(this.txtFiltro_TextChanged);
             // 
             // grilla3
             // 
@@ -325,25 +358,29 @@
             this.fechaGrid.HeaderText = "FECHA";
             this.fechaGrid.Name = "fechaGrid";
             // 
-            // txtFiltro
+            // btnCapturar
             // 
-            this.txtFiltro.Location = new System.Drawing.Point(102, 447);
-            this.txtFiltro.Name = "txtFiltro";
-            this.txtFiltro.Size = new System.Drawing.Size(100, 20);
-            this.txtFiltro.TabIndex = 6;
-            this.txtFiltro.TextChanged += new System.EventHandler(this.txtFiltro_TextChanged);
+            this.btnCapturar.Location = new System.Drawing.Point(352, 299);
+            this.btnCapturar.Name = "btnCapturar";
+            this.btnCapturar.Size = new System.Drawing.Size(75, 23);
+            this.btnCapturar.TabIndex = 13;
+            this.btnCapturar.Text = "Capturar";
+            this.btnCapturar.UseVisualStyleBackColor = true;
+            this.btnCapturar.Click += new System.EventHandler(this.btnCapturar_Click);
             // 
             // FormContactoFamiliar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 529);
+            this.ClientSize = new System.Drawing.Size(697, 578);
             this.Controls.Add(this.tabPage);
             this.Name = "FormContactoFamiliar";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormContactoFamiliar_FormClosed);
             this.Load += new System.EventHandler(this.FormContactoFamiliar_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.tabPage.ResumeLayout(false);
             this.tbGeneral.ResumeLayout(false);
             this.tbGeneral.PerformLayout();
@@ -372,7 +409,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox lstFamiliar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label label6;
@@ -387,6 +423,10 @@
         private System.Windows.Forms.DataGridView gridViewCF2;
         private System.Windows.Forms.DataGridView grilla3;
         private System.Windows.Forms.TextBox txtFiltro;
+        private System.Windows.Forms.PictureBox pbImage;
+        private System.Windows.Forms.Button btnIniciar;
+        private System.Windows.Forms.ComboBox cbCamaras;
+        private System.Windows.Forms.Button btnCapturar;
     }
 }
 

@@ -9,12 +9,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge.Video;
+using AForge.Video.DirectShow;
+using System.Drawing.Imaging;
 
 namespace PresentacionForm
 {
     public partial class FormContactoFamiliar : Form
     {
         ServicioContactoFamiliar servicioContactoFamiliar = new ServicioContactoFamiliar();
+        private FilterInfoCollection Dispositivos;
+        private VideoCaptureDevice FuenteDeVideo;
+        private string path = @"C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\ImagenesContactos\";
 
         public FormContactoFamiliar()
         {
@@ -23,16 +29,16 @@ namespace PresentacionForm
 
         private void FormContactoFamiliar_Load(object sender, EventArgs e)
         {
-            CargarLista();
+            llenarComboBoxCamaras();            
             llenarGridView();
             llenarGridView2();
-            //llenarGridView3(txtFiltro.Text);
             Filtrar(txtFiltro.Text);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
+            ApagarCamara();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -44,22 +50,12 @@ namespace PresentacionForm
         {
             Capturar();
             Limpiar();
-            CargarLista();
         }        
-
-        private void lstFamiliar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var lista = servicioContactoFamiliar.GetAll();
-            int i = lstFamiliar.SelectedIndex;
-            tbId.Text = lista[i].Id.ToString();
-            tbNombre.Text = lista[i].Nombre.ToString();  
-            tbTelefono.Text = lista[i].Telefono;
-        }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            Eliminar();
-            CargarLista();
+            //Eliminar();
+            //CargarLista();
             Limpiar();
         }
 
@@ -67,8 +63,13 @@ namespace PresentacionForm
         {
             Capturar();
             Limpiar();
-            Eliminar();
-            CargarLista();
+            //Eliminar();
+            //CargarLista();
+        }
+
+        private void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
+            Filtrar(txtFiltro.Text);
         }
 
         public void Limpiar()
@@ -86,25 +87,26 @@ namespace PresentacionForm
             contacto.Nombre = tbNombre.Text;
             contacto.Telefono = tbTelefono.Text;
             contacto.FechaNacimiento = dtpFecha.Value;
+            GuardarImagen(contacto);
             var msg = servicioContactoFamiliar.Add(contacto);
             tbId.Focus();
             dtpFecha.Value = DateTime.Now;
         }
 
-        public void CargarLista()
-        {
-            lstFamiliar.Items.Clear();
-            var lista = servicioContactoFamiliar.GetAll();
-            foreach (var item in lista)
-            {
-                lstFamiliar.Items.Add(item.Nombre);
-            }
-        }
+        //public void CargarLista()
+        //{
+        //    lstFamiliar.Items.Clear();
+        //    var lista = servicioContactoFamiliar.GetAll();
+        //    foreach (var item in lista)
+        //    {
+        //        lstFamiliar.Items.Add(item.Nombre);
+        //    }
+        //}
 
-        public void Eliminar()
-        {
-            servicioContactoFamiliar.Eliminar(lstFamiliar.Text);            
-        }
+        //public void Eliminar()
+        //{
+        //    servicioContactoFamiliar.Eliminar(lstFamiliar.Text);            
+        //}
         
         public void llenarGridView()
         {
@@ -118,7 +120,9 @@ namespace PresentacionForm
         {
             gridViewCF2.DataSource = servicioContactoFamiliar.GetAllDto();
         }
+
         BindingSource bin = new BindingSource();
+
         public void llenarGridView3(string filtro)
         {
             //var bl = servicioContactoFamiliar.ListaEspecial();
@@ -127,7 +131,8 @@ namespace PresentacionForm
             //¿bin.Filter? ¿como se usa?
             //grilla3.DataSource = bin;
         }
-        void Filtrar(string filtro)
+
+        public void Filtrar(string filtro)
         {
             grilla3.DataSource = null;
             var bl = servicioContactoFamiliar.ListaEspecial();
@@ -140,9 +145,59 @@ namespace PresentacionForm
             //grilla3.Refresh();
         }
 
-        private void txtFiltro_TextChanged(object sender, EventArgs e)
+        public void llenarComboBoxCamaras()
         {
-            Filtrar(txtFiltro.Text);
+            Dispositivos = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo Dispositivo in Dispositivos)
+            {
+                cbCamaras.Items.Add(Dispositivo.Name);
+            }
+            cbCamaras.SelectedIndex = 0;
+        }
+
+        public void IniciarImagen()
+        {
+            ApagarCamara();
+            int i = cbCamaras.SelectedIndex;
+            string NombreVideo = Dispositivos[i].MonikerString;
+            FuenteDeVideo = new VideoCaptureDevice(NombreVideo);
+            FuenteDeVideo.NewFrame += new NewFrameEventHandler(Capturando);
+            FuenteDeVideo.Start();
+        }
+
+        private void Capturando(object sender, NewFrameEventArgs eventArgs)
+        {
+            Bitmap Imagen = (Bitmap)eventArgs.Frame.Clone();
+            pbImage.Image = Imagen;
+        }
+
+        private void ApagarCamara()
+        {
+            if (FuenteDeVideo != null && FuenteDeVideo.IsRunning)
+            {
+                FuenteDeVideo.SignalToStop();
+                FuenteDeVideo = null;
+            }
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            IniciarImagen();
+        }
+
+        private void FormContactoFamiliar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ApagarCamara();
+        }
+
+        private void btnCapturar_Click(object sender, EventArgs e)
+        {
+            ApagarCamara();
+        }
+
+        private void GuardarImagen(dynamic contacto)
+        {
+            pbImage.Image.Save(path + $"{contacto.Id}.jpg", ImageFormat.Jpeg);
         }
     }
 }
