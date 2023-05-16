@@ -3,6 +3,7 @@ using Entidades;
 using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace Logica
     {
         RepositorioFamiliar repositorio = new RepositorioFamiliar();
         List<ContactoFamiliarDto> listaDto = null;
-        List<ContactoFamiliar> lista = null;
+        List<ContactoFamiliar> lista = null;    
 
         public ServicioContactoFamiliar()
         {
@@ -58,6 +59,7 @@ namespace Logica
             }
             return lista;
         }
+
         public List<ContactoFamiliarDto> GetAllDto()
         {
             listaDto = repositorio.ConsultarTodosDto();
@@ -85,6 +87,11 @@ namespace Logica
             Id = GetAll().Count;
             Id++;
             return Id;
-        }        
+        }
+        public BindingList<ContactoFamiliar> ListaEspecial()
+        {
+            var bl = new BindingList<ContactoFamiliar>(lista);
+            return bl;
+        }
     }
 }

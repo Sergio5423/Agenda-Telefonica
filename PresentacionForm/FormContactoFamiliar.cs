@@ -15,6 +15,7 @@ namespace PresentacionForm
     public partial class FormContactoFamiliar : Form
     {
         ServicioContactoFamiliar servicioContactoFamiliar = new ServicioContactoFamiliar();
+
         public FormContactoFamiliar()
         {
             InitializeComponent();
@@ -25,7 +26,8 @@ namespace PresentacionForm
             CargarLista();
             llenarGridView();
             llenarGridView2();
-            llenarGridView3();
+            //llenarGridView3(txtFiltro.Text);
+            Filtrar(txtFiltro.Text);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -103,7 +105,7 @@ namespace PresentacionForm
         {
             servicioContactoFamiliar.Eliminar(lstFamiliar.Text);            
         }
-
+        
         public void llenarGridView()
         {
             foreach (var item in servicioContactoFamiliar.GetAll())
@@ -116,13 +118,31 @@ namespace PresentacionForm
         {
             gridViewCF2.DataSource = servicioContactoFamiliar.GetAllDto();
         }
-        //¿Cual es la diferencia?
-        public void llenarGridView3()
+        BindingSource bin = new BindingSource();
+        public void llenarGridView3(string filtro)
         {
-            BindingSource bin = new BindingSource();
-            bin.DataSource = servicioContactoFamiliar.GetAllDto();            
+            //var bl = servicioContactoFamiliar.ListaEspecial();
+            //bl.Where(x => x.Nombre.Contains(txtFiltro.Text));
+            //bin.DataSource = bl;
             //¿bin.Filter? ¿como se usa?
+            //grilla3.DataSource = bin;
+        }
+        void Filtrar(string filtro)
+        {
+            grilla3.DataSource = null;
+            var bl = servicioContactoFamiliar.ListaEspecial();
+            
+            bin.DataSource = bl.Where(x => x.Nombre.Contains(txtFiltro.Text));
+            //bin.SupportsFiltering = true;
+            //bin.Filter = string.Format("Nombre like '%{0}%'", txtFiltro.Text);
             grilla3.DataSource = bin;
+            //grilla3.Update();
+            //grilla3.Refresh();
+        }
+
+        private void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
+            Filtrar(txtFiltro.Text);
         }
     }
 }

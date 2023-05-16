@@ -56,6 +56,7 @@
             this.nombresGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtFiltro = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage.SuspendLayout();
@@ -263,6 +264,7 @@
             // 
             // tbListado
             // 
+            this.tbListado.Controls.Add(this.txtFiltro);
             this.tbListado.Controls.Add(this.grilla3);
             this.tbListado.Controls.Add(this.gridViewCF2);
             this.tbListado.Controls.Add(this.gridViewCF);
@@ -323,6 +325,14 @@
             this.fechaGrid.HeaderText = "FECHA";
             this.fechaGrid.Name = "fechaGrid";
             // 
+            // txtFiltro
+            // 
+            this.txtFiltro.Location = new System.Drawing.Point(102, 447);
+            this.txtFiltro.Name = "txtFiltro";
+            this.txtFiltro.Size = new System.Drawing.Size(100, 20);
+            this.txtFiltro.TabIndex = 6;
+            this.txtFiltro.TextChanged += new System.EventHandler(this.txtFiltro_TextChanged);
+            // 
             // FormContactoFamiliar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,6 +348,7 @@
             this.tbGeneral.ResumeLayout(false);
             this.tbGeneral.PerformLayout();
             this.tbListado.ResumeLayout(false);
+            this.tbListado.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grilla3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewCF2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewCF)).EndInit();
@@ -375,6 +386,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaGrid;
         private System.Windows.Forms.DataGridView gridViewCF2;
         private System.Windows.Forms.DataGridView grilla3;
+        private System.Windows.Forms.TextBox txtFiltro;
     }
 }
 
