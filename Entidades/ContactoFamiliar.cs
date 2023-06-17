@@ -13,20 +13,21 @@ namespace Entidades
         {
         }
 
-        public ContactoFamiliar(int id, string nombre, string telefono, DateTime fechaNacimiento) : base(id, nombre, telefono)
+        public ContactoFamiliar(int id, string nombre, string telefono, DateTime fechaCumpleaños, string ruta) : base(id, nombre, telefono, ruta)
         {
-            FechaNacimiento = fechaNacimiento;
+            FechaCumpleaños = fechaCumpleaños;
+            Ruta = ruta;
         }
-        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaCumpleaños { get; set; }
 
         public int Edad()
         {
-            return DateTime.Now.Year - FechaNacimiento.Year;
+            return DateTime.Now.Year - FechaCumpleaños.Year;
         }
 
         public override string ToString()
         {
-            return $"{Id};{Nombre};{Telefono};{FechaNacimiento.ToShortDateString()}";
+            return $"{Id};{Nombre};{Telefono};{FechaCumpleaños.ToShortDateString()};{Ruta}";
         }
     }
 }

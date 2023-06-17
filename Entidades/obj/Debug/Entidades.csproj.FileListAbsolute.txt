@@ -28,3 +28,9 @@ C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.dll
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\Entidades\obj\Debug\Entidades.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\bin\Debug\Entidades.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\bin\Debug\Entidades.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\obj\Debug\Entidades.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\Entidades\obj\Debug\Entidades.pdb

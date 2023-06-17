@@ -83,7 +83,7 @@ namespace Datos
                 Id = int.Parse(linea.Split(';')[0]),
                 Nombre = linea.Split(';')[1],
                 Telefono = linea.Split(';')[2],
-                FechaNacimiento = DateTime.Parse(linea.Split(';')[3])
+                FechaCumpleaños = DateTime.Parse(linea.Split(';')[3])
             };
 
             return contacto;
@@ -100,5 +100,6 @@ namespace Datos
 
             return contacto;
         }
+
     }
 }

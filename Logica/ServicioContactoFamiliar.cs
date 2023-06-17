@@ -13,13 +13,13 @@ namespace Logica
     public class ServicioContactoFamiliar : IContacto<ContactoFamiliar>
     {
         RepositorioFamiliar repositorio = new RepositorioFamiliar();
+        BaseDatosFamiliar baseDatosFamiliar = new BaseDatosFamiliar();
         List<ContactoFamiliarDto> listaDto = null;
         List<ContactoFamiliar> lista = null;    
 
         public ServicioContactoFamiliar()
         {
-            listaDto = repositorio.ConsultarTodosDto();
-            lista = repositorio.ConsultarTodos();
+
         }
 
 
@@ -33,7 +33,7 @@ namespace Logica
                     return "error al guardar el contacto ";
                 }
 
-                repositorio.GuardarContacto(contacto);
+                baseDatosFamiliar.Agregar(contacto);
                 return $"se guardo el contacto --> {contacto.Nombre}";
             }
             catch (Exception)
@@ -50,14 +50,19 @@ namespace Logica
             return "Contacto Eliminado";
         }
 
+        public void EliminarBD(int id)
+        {
+            baseDatosFamiliar.Borrar(id);
+        }
+
+        public void Actualizar(dynamic contacto)
+        {
+            baseDatosFamiliar.Actualizar(contacto);
+        }
+
         public List<ContactoFamiliar> GetAll()
         {
-            lista = repositorio.ConsultarTodos();
-            if (repositorio.ConsultarTodos().Count == 0)
-            {
-                return null;
-            }
-            return lista;
+            return lista = baseDatosFamiliar.Consultar();
         }
 
         public List<ContactoFamiliarDto> GetAllDto()

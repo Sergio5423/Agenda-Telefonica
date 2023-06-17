@@ -9,12 +9,13 @@ namespace Entidades
     public class ContactoFamiliarDto //: PersonaDto
     {
         //¿Crear una clase PersonaDto y heredar de esa?
-        public ContactoFamiliarDto(string id, string nombre, string telefono, string fecha) //: base(id, nombre, telefono)
+        public ContactoFamiliarDto(string id, string nombre, string telefono, string fecha, string ruta) //: base(id, nombre, telefono)
         {
             Id = id;
             Nombre = nombre;
             Telefono = telefono;
             Fecha = fecha;
+            Ruta = ruta;
         }
         public ContactoFamiliarDto()
         {
@@ -24,6 +25,6 @@ namespace Entidades
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Fecha { get; set; }
-
+        public string Ruta { get; set; }
     }
 }

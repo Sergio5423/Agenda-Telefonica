@@ -35,7 +35,7 @@ namespace Presentacion
             m = int.Parse(Console.ReadLine());
             Console.SetCursorPosition(25,17); Console.Write("Año: "); 
             a = int.Parse(Console.ReadLine());
-                contacto.FechaNacimiento = new DateTime(a, m, d);
+                contacto.FechaCumpleaños = new DateTime(a, m, d);
             var msg=ServicioContactoFamiliar.Add(contacto);
             Console.SetCursorPosition(25,19); Console.Write(msg);
             Console.ReadKey();
@@ -53,7 +53,7 @@ namespace Presentacion
             Console.SetCursorPosition(25, 11); Console.Write(contacto.Nombre);
             Console.SetCursorPosition(40, 11); Console.Write(contacto.Telefono);
             Console.SetCursorPosition(55, 11); Console.Write(contacto.Edad().ToString());
-            Console.SetCursorPosition(65, 11); Console.Write(contacto.FechaNacimiento.ToShortDateString());            
+            Console.SetCursorPosition(65, 11); Console.Write(contacto.FechaCumpleaños.ToShortDateString());            
             Console.ReadKey();                                              
         }
 
@@ -90,7 +90,7 @@ namespace Presentacion
             m = int.Parse(Console.ReadLine());
             Console.SetCursorPosition(25, 15); Console.Write("Año: ");
             a = int.Parse(Console.ReadLine());
-            contacto.FechaNacimiento = new DateTime(a, m, d);                        
+            contacto.FechaCumpleaños = new DateTime(a, m, d);                        
             Titulos();
             MostrarDatosTabla();
             Console.ReadKey();
@@ -116,7 +116,7 @@ namespace Presentacion
                 Console.SetCursorPosition(25, 9 + i); Console.Write(item.Nombre);
                 Console.SetCursorPosition(40, 9 + i); Console.Write(item.Telefono);
                 Console.SetCursorPosition(55, 9 + i); Console.Write(item.Edad());
-                Console.SetCursorPosition(65, 9 + i); Console.Write(item.FechaNacimiento.ToShortDateString());
+                Console.SetCursorPosition(65, 9 + i); Console.Write(item.FechaCumpleaños.ToShortDateString());
                 i++;
             }
         return i;

@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDatosFamiliar.cs" />
+    <Compile Include="GestorConexion.cs" />
     <Compile Include="IRepositorio.cs" />
     <Compile Include="RepositorioEmpresarial.cs" />
     <Compile Include="RepositorioFamiliar.cs" />

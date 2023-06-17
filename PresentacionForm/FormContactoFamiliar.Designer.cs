@@ -29,12 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnRuta = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.cbCamaras = new System.Windows.Forms.ComboBox();
             this.pbImage = new System.Windows.Forms.PictureBox();
@@ -51,6 +50,9 @@
             this.tabPage = new System.Windows.Forms.TabControl();
             this.tbGeneral = new System.Windows.Forms.TabPage();
             this.tbListado = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.txtFiltro = new System.Windows.Forms.TextBox();
             this.grilla3 = new System.Windows.Forms.DataGridView();
             this.gridViewCF2 = new System.Windows.Forms.DataGridView();
@@ -59,7 +61,6 @@
             this.nombresGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCapturar = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
@@ -73,8 +74,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnActualizar);
-            this.groupBox2.Controls.Add(this.btnEliminar);
             this.groupBox2.Controls.Add(this.btnSalir);
             this.groupBox2.Controls.Add(this.btnGuardar);
             this.groupBox2.Controls.Add(this.btnNuevo);
@@ -83,26 +82,6 @@
             this.groupBox2.Size = new System.Drawing.Size(604, 88);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(266, 37);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
-            this.btnActualizar.TabIndex = 4;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(385, 37);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 3;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnSalir
             // 
@@ -136,7 +115,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnCapturar);
+            this.groupBox1.Controls.Add(this.btnRuta);
             this.groupBox1.Controls.Add(this.btnIniciar);
             this.groupBox1.Controls.Add(this.cbCamaras);
             this.groupBox1.Controls.Add(this.pbImage);
@@ -154,6 +133,16 @@
             this.groupBox1.Size = new System.Drawing.Size(604, 345);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            // 
+            // btnRuta
+            // 
+            this.btnRuta.Location = new System.Drawing.Point(352, 304);
+            this.btnRuta.Name = "btnRuta";
+            this.btnRuta.Size = new System.Drawing.Size(229, 23);
+            this.btnRuta.TabIndex = 13;
+            this.btnRuta.Text = "Seleccione una ruta";
+            this.btnRuta.UseVisualStyleBackColor = true;
+            this.btnRuta.Click += new System.EventHandler(this.btnRuta_Click);
             // 
             // btnIniciar
             // 
@@ -175,7 +164,7 @@
             // 
             // pbImage
             // 
-            this.pbImage.Location = new System.Drawing.Point(352, 79);
+            this.pbImage.Location = new System.Drawing.Point(352, 87);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(229, 199);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -289,6 +278,9 @@
             // 
             // tbListado
             // 
+            this.tbListado.Controls.Add(this.label7);
+            this.tbListado.Controls.Add(this.btnActualizar);
+            this.tbListado.Controls.Add(this.btnEliminar);
             this.tbListado.Controls.Add(this.txtFiltro);
             this.tbListado.Controls.Add(this.grilla3);
             this.tbListado.Controls.Add(this.gridViewCF2);
@@ -296,10 +288,38 @@
             this.tbListado.Location = new System.Drawing.Point(4, 22);
             this.tbListado.Name = "tbListado";
             this.tbListado.Padding = new System.Windows.Forms.Padding(3);
-            this.tbListado.Size = new System.Drawing.Size(647, 534);
+            this.tbListado.Size = new System.Drawing.Size(647, 528);
             this.tbListado.TabIndex = 1;
             this.tbListado.Text = "Vista General";
             this.tbListado.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(27, 453);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Filtro";
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(436, 479);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.TabIndex = 8;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(542, 479);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // txtFiltro
             // 
@@ -316,6 +336,7 @@
             this.grilla3.Name = "grilla3";
             this.grilla3.Size = new System.Drawing.Size(590, 98);
             this.grilla3.TabIndex = 2;
+            this.grilla3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grilla3_CellContentClick);
             // 
             // gridViewCF2
             // 
@@ -358,16 +379,6 @@
             this.fechaGrid.HeaderText = "FECHA";
             this.fechaGrid.Name = "fechaGrid";
             // 
-            // btnCapturar
-            // 
-            this.btnCapturar.Location = new System.Drawing.Point(352, 299);
-            this.btnCapturar.Name = "btnCapturar";
-            this.btnCapturar.Size = new System.Drawing.Size(75, 23);
-            this.btnCapturar.TabIndex = 13;
-            this.btnCapturar.Text = "Capturar";
-            this.btnCapturar.UseVisualStyleBackColor = true;
-            this.btnCapturar.Click += new System.EventHandler(this.btnCapturar_Click);
-            // 
             // FormContactoFamiliar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -409,8 +420,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabControl tabPage;
         private System.Windows.Forms.TabPage tbGeneral;
@@ -426,7 +435,10 @@
         private System.Windows.Forms.PictureBox pbImage;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.ComboBox cbCamaras;
-        private System.Windows.Forms.Button btnCapturar;
+        private System.Windows.Forms.Button btnRuta;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
 

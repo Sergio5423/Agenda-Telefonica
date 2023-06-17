@@ -44,3 +44,29 @@ C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\PresentacionForm\obj\Debug\PresentacionForm.csproj.CopyComplete
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\PresentacionForm\obj\Debug\PresentacionForm.exe
 C:\Users\starr\OneDrive\Documentos\Yo\Universidad\4to Semestre\Programación III\AgendaV6\PresentacionForm\obj\Debug\PresentacionForm.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\PresentacionForm.exe.config
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\PresentacionForm.exe
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\PresentacionForm.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.Video.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Entidades.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Logica.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Datos.dll
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Entidades.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Logica.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.xml
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.Video.xml
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\bin\Debug\Datos.pdb
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.csproj.AssemblyReference.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.FormContactoEmpresarial.resources
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.FormContactoFamiliar.resources
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.Menu.resources
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.Properties.Resources.resources
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.csproj.GenerateResource.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.csproj.CoreCompileInputs.cache
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.csproj.CopyComplete
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.exe
+C:\Users\starr\source\repos\Sergio5423\Agenda-Telefonica\PresentacionForm\obj\Debug\PresentacionForm.pdb

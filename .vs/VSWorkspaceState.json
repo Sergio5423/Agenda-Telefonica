@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Entidades",
-    "\\Logica"
+    "\\PresentacionForm"
   ],
-  "SelectedNode": "\\AgendaV4.sln",
+  "SelectedNode": "\\PresentacionForm\\FormContactoFamiliar.cs",
   "PreviewInSolutionExplorer": false
 }

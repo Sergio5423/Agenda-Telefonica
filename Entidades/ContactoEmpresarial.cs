@@ -10,10 +10,11 @@ namespace Entidades
     {
         public ContactoEmpresarial()
         { }
-        public ContactoEmpresarial(int id, string nombre, string telefono, string nombreEmpresa, string correo) : base(id, nombre, telefono)
+        public ContactoEmpresarial(int id, string nombre, string telefono, string nombreEmpresa, string correo, string ruta) : base(id, nombre, telefono, ruta)
         {
             NombreEmpresa = nombreEmpresa;
             Correo = correo;
+            Ruta = ruta;
         }
 
         public string NombreEmpresa { get; set; }
@@ -22,7 +23,7 @@ namespace Entidades
 
         public override string ToString()
         {
-            return $"{Id};{Nombre};{Telefono};{NombreEmpresa};{Correo}";
+            return $"{Id};{Nombre};{Telefono};{NombreEmpresa};{Correo};{Ruta}";
         }
 
     }

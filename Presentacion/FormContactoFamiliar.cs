@@ -56,7 +56,7 @@ namespace Presentacion
             contacto.Id = int.Parse(lbId.Text);
             contacto.Nombre = lbNombre.Text;
             contacto.Telefono = lbTelefono.Text;
-            contacto.FechaNacimiento = dtpFecha.Value;
+            contacto.FechaCumpleaños = dtpFecha.Value;
             var msg = servicioContactoFamiliar.Add(contacto);
             lbId.Focus();
             dtpFecha.Value = DateTime.Now;

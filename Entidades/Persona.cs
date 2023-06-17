@@ -12,15 +12,17 @@ namespace Entidades
         {
                 
         }
-        public Persona(int id, string nombre, string telefono)
+        public Persona(int id, string nombre, string telefono, string ruta)
         {
             Id = id;
             Nombre = nombre;
             Telefono = telefono;
+            Ruta = ruta;
         }
 
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
+        public string Ruta { get; set; }
     }
 }
